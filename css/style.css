@@ -1,0 +1,331 @@
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;  
+}
+.part4{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.part4 .container{
+    
+}
+.part4 .container .left{
+    background-color: #5fcf80;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+.part4 .container .left h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;}
+.part4 .container .left p{
+    margin-bottom: 30px;
+}
+.part4 .learn{
+    text-align: center;
+}
+.part4 .container .left .learn button{
+    color: #fff;
+    background-color: #cfe1d394;
+    border-color: #cfe1d394;
+    padding: 8px 30px;
+    border-radius: 25px;
+}
+.part4 .container .left .learn button:hover{
+    color: #5fcf80;
+    background-color: white;
+    border-color: #cfe1d394;
+    transition: 1s all;
+}
+.part4 .container .left .learn p{
+    position: relative;
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: -10px;
+} 
+.part4 .container .left .learn p i{
+    position: absolute;
+    bottom: 3px;
+} 
+.part4 .container .content{
+    margin-top: 20px;
+    border: 1px solid #eef0ef;
+    padding: 40px 30px;
+    text-align: center;
+    width: 100%;
+} 
+.part4 .content p:first-of-type{
+    color: #5fcf80;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    background-color: #5fcf801a;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 43px;
+    margin-bottom: 30px;
+}
+.part4 .content p i{
+    
+}
+.part4 .content h4{
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.part4 .content p:last-of-type{
+    
+}
+.part5{
+    margin-bottom: 40px;
+}
+.part5 .icons{
+    border: 1px solid #eef0ef;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.part5 .icons i{
+    font-size: 33px;
+    padding-right: 10px;
+}
+.part5 .icons h3{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.part5 .icons:hover{
+    border:1px solid #5fcf80;
+    transition: 1s all;
+}
+.part5 .icons:hover h3{
+    color: #5fcf80;
+    transition: 1s all;
+}
+.part6{
+margin-bottom: 30px;
+}
+.part6 .title{
+
+}
+.part6 .title h3{
+    font-size: 20px;
+    position: relative;
+    color: #b7a9a9;
+}
+.part6 .title h3::after{
+    content: "";
+    position: absolute;
+    background-color: #5fcf80;
+    width: 100px;
+    height: 1px;
+    left: 110px;
+    top: 10px;
+}
+.part6 .title h2{
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.part6 .courses{
+    border: 1px solid #eef0ef;
+    /* padding: 20px; */
+}
+.part6 .courses img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.part6 .courses .course{
+    padding: 20px;
+}
+.part6 .courses .course .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part6 .courses .course .header button{
+
+}
+.part6 .courses .course .header p:first-of-type{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.part6 .courses .course h3{
+    font-size: 21px;
+}
+.part6 .courses .course h3:hover{
+    color:  #5fcf80;
+    transition: 1s all;
+}
+.part6 .courses .course p:last-of-type{
+    padding-bottom: 10px;
+ 
+}
+.part6 .courses .course .footer{
+    display: flex;
+    justify-content: space-between;
+}
+.part6 .courses .course .footer .footleft{
+
+}
+.part6 .courses .course .footer .footleft img{
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    margin-top: 10px;
+}
+.part6 .courses .course .footer .footleft span{
+
+}
+.part6 .courses .course .footer .footright{
+    margin-top: 40px;
+}
+.part6 .courses .course .footer .footright i{
+    font-size: 20px;
+}
+.part7{
+    margin-bottom: 30px;
+}
+.part7 .info{
+    border: 1px solid #eef0ef;
+}
+.part7 .info img{
+    width: 100%;
+}
+.part7 .info .infotrainer{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.part7 .info .infotrainer h2{
+    margin-top: 25px;
+    font-size: 23px;
+}
+.part7 .info .infotrainer p:first-of-type{
+    font-style: italic;
+    margin-top: -7px;
+}
+.part7 .info .infotrainer p:last-of-type{
+    font-style: italic;
+    margin-top: -3px;
+    color: gray;
+}
+.part7 .info .infotrainer .media{
+    margin-left: 110px;
+}
+.part7 .info .infotrainer .media i{
+    font-size: 25px;
+    color: gray;
+}
+.part7 .info .infotrainer .media i:hover{
+    color:#5fcf80;
+    transition: 1s all;
+}
+.part8{
+    background-color: #ebf5eb;
+    padding: 50px 0px;
+}
+.part8 .mentor{
+    
+}
+.part8 .mentor h3{
+    
+}
+.part8 .mentor p{
+    color: gray;
+}
+.part8 .links{
+
+}
+.part8 .links h3{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.part8 .links ul{
+    list-style: none;
+}
+.part8 .links ul li{
+    padding-bottom: 10px;
+}
+.part8 .links ul li i{
+    color: #5fcf80;
+}
+.part8 .links ul li a{
+    color: gray;
+    text-decoration: none;
+}
+.part8 .links ul li a:hover{
+    color: #5fcf80;
+    transition: 1s all;
+}
+.part8 .join{
+
+}
+.part8 .join h3{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.part8 .join p{
+    margin-bottom: 50px;
+    color: gray;
+}
+.part8 .join form{
+    background-color: white;
+    padding: 13px;
+    border-radius: 50px;
+    position: relative;
+}
+.part8 .join form input:first-of-type{
+    border: 0;
+}
+.part8 .join form input:last-of-type{
+    background-color: #5fcf80;
+    border: 0;
+    padding: 13px 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 50px;
+    color: white;
+
+}
+.part9{
+    background: #cbe1d6c7;
+    padding: 20px;
+}
+.part9 .finish{
+/* display: flex;
+justify-content: space-between; */
+}
+.part9 .finish p{
+
+}
+.part9 .finish .media2{
+    margin-left: 300px;
+}
+.part9 .finish .media2 p{
+display: inline-block;
+width: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    background-color: #5fcf80;
+    margin-right: 3px;
+}
+.part9 .finish .media2 p:hover{
+    background-color: #307044;
+    transition: 1s all;
+}
+.part9 .finish .media2 p i{
+
+}
